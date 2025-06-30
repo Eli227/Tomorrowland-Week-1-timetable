@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+.stage {
+  margin-bottom: 30px;
+}
+.set {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+.set .favorite {
+  cursor: pointer;
+  color: gold;
+}
+.set .favorite.inactive {
+  color: gray;
+}
